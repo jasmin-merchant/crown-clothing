@@ -7,7 +7,7 @@ import HomePage from './pages/homepage/homepage.component';
 
 const Hats = () => (
   <div>
-    Hats Page
+    <h1>Hats Page</h1>
   </div>
 )
 
