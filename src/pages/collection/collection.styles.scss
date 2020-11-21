@@ -18,3 +18,18 @@
     }
   }
   
+  @media only screen and (max-width: 700px) {
+    .collection-page {
+      .items {
+        grid-template-columns: 1fr;
+      }
+    } 
+  }
+
+  @media only screen and (min-width: 701px) and (max-width: 1024px) {
+    .collection-page {
+      .items {
+        grid-template-columns: 1fr 1fr;
+      }
+    } 
+  }

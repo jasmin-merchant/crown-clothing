@@ -5,4 +5,8 @@ export const HomePageContainer = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 20px 80px;
+
+    @media only screen and (max-width: 768px) {
+          padding: 0;
+      }
 `;
